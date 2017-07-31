@@ -166,9 +166,68 @@ header {
 
 
 
+@media screen and (max-width: 980px) {
+  /* The body's bg color will be #333 */
+  body {
+  }
+  /* The wrapper's width will be 600px */
+  #mainContent, #headerDiv {
+    width: 500px;
+  }
+  #connect {
+  	float: left;
+  	width; 100%
+  }
+  #navLinks {
+  	width: 100%;
+  }
+  header {
+  	position:static;
+  }
+}
 
 
-// Small devices (landscape phones, 576px and up)
+
+@media screen and (max-width: 768px) {
+  /* The body's bg color will be #333 */
+  body {
+  }
+  /* The wrapper's width will be 600px */
+  #mainContent, #headerDiv {
+    width: 500px;
+  }
+  #connect, #navLinks {
+  	float: left;
+  	width: 100%;
+  }
+}
+
+
+
+@media screen and (max-width: 640px) {
+  /* The body's bg color will be #333 */
+  body {
+  }
+  /* The wrapper's width will be 600px */
+  #mainContent, #headerDiv {
+    width: 500px;
+  }
+  #connect {
+  	float: left;
+  	width; 100%
+  }
+  #navLinks {
+  	width: 100%;
+  }
+  header {
+  	position:static;
+  }
+}
+
+
+
+
+/*// Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
 
 }
@@ -186,4 +245,4 @@ header {
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { 
 
- }
+ }*/

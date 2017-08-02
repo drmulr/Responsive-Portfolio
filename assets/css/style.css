@@ -174,7 +174,7 @@ header {
 
   }
   .smLogo {
-    margin-left: 75px;
+    margin-left: 20px;
   }
   /* The wrapper's width will be 600px */
   #aboutMe {
@@ -187,7 +187,7 @@ header {
   }
   #connect {
   	float: left;
-  	width; 100%
+  	width: 80%;
   }
   #navLinks {
   	width: 100%;
@@ -200,16 +200,14 @@ header {
 
 
 @media screen and (max-width: 768px) {
-  body {
-  }
   /* The wrapper's width will be 600px */
   #mainContent, #headerDiv {
     width: 500px;
   }
   #connect, #navLinks {
   	float: left;
-  	width: 100%;
-  }*/
+  	width: 80%;
+  }
 }
 
 
@@ -219,10 +217,8 @@ header {
   body {
   }
   /* The wrapper's width will be 600px */
-  }
   #connect {
   	float: left;
-  	width; 100%
   }
   #navLinks {
   	width: 100%;
